@@ -42,4 +42,11 @@ public class Kordinat {
         return y;
     }
 
+    @Override
+    public String toString() {
+        return "Kordinat{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
